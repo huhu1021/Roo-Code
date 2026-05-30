@@ -49,7 +49,7 @@
 - [简体中文](locales/zh-CN/README.md)
 - [繁體中文](locales/zh-TW/README.md)
 - ...
-    </details>
+      </details>
 
 ---
 
@@ -187,3 +187,12 @@ We love community contributions! Get started by reading our [CONTRIBUTING.md](CO
 ---
 
 **Enjoy Roo Code!** Whether you keep it on a short leash or let it roam autonomously, we can’t wait to see what you build. If you have questions or feature ideas, drop by our [Reddit community](https://www.reddit.com/r/RooCode/) or [Discord](https://discord.gg/roocode). Happy coding!
+
+打包 VS Code 插件的命令是：
+bash
+pnpm vsix
+
+# 安装vscode插件
+
+ctrl + shift + p
+Extensions: Install from VSIX…

@@ -150,7 +150,7 @@ export async function activate(context: vscode.ExtensionContext) {
 	const mdmService = await MdmService.createInstance(cloudLogger)
 
 	// Initialize i18n for internationalization support.
-	// JXMH Code 中文版：默认使用中文
+	// LM Code 中文版：默认使用中文
 	initializeI18n(context.globalState.get("language") ?? "zh-CN")
 
 	// Initialize terminal shell execution handlers.
