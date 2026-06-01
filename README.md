@@ -49,7 +49,7 @@
 - [简体中文](locales/zh-CN/README.md)
 - [繁體中文](locales/zh-TW/README.md)
 - ...
-      </details>
+  </details>
 
 ---
 
@@ -190,6 +190,8 @@ We love community contributions! Get started by reading our [CONTRIBUTING.md](CO
 
 打包 VS Code 插件的命令是：
 bash
+pnpm install:vsix
+不行就用：
 pnpm vsix
 
 # 安装vscode插件
